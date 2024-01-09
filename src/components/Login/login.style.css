@@ -1,0 +1,20 @@
+.login-container,form{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+form input{
+    width: 20em;
+    height: 2em;
+}
+form button{
+    color: white;
+    background-color: #000;
+}
+
+form span{
+    color: red;
+}
